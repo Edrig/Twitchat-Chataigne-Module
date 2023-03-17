@@ -1,0 +1,30 @@
+{
+	"name": "Twitchat",
+	"type": "WebSocket Server",
+	"path": "Software",
+	"version": "0.0.1",
+	"description": "To control and receive Twitchat msg",
+	"url": "https://github.com/Edrig/Twitchat-Chataigne-Module",
+	"downloadURL": "https://github.com/Edrig/Twitchat-Chataigne-Module/archive/master.zip",
+	"hasInput": true,
+	"hasOutput": true,
+	"hideDefaultCommands": false,
+	"hideDefaultParameters": [
+		
+	],
+	"defaults": {
+		"Protocol": "JSON",
+		"autoAdd": false,
+		"serverPath": "127.0.0.1:4455",
+	},
+	"parameters": {
+	},
+	
+   "scripts": [
+      "twitchat.js"
+   ],
+   "commands": {
+
+   },
+   }
+}
